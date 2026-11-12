@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="ja" viewBox="0 0 750 4393" width="750" height="4393" role="img" aria-labelledby="t d">
+<title id="t">BioDegmer TECHNOLOGY schematic (smartphone)</title>
+<desc id="d">Schematic of BioDegmer technology: design concept (function, degradation, absorption/clearance), nine medical-grade biodegradable and absorbable polymer families with the design freedom of material properties, processing forms with representative applications, and an ISO 13485-certified quality management system. 01 Design concept: the material performs its function for the required period; polymer chain scission then decreases its molecular weight, and the low-molecular-weight degradation products are processed in the body via material-dependent pathways. 02 Material platform: nine polymer families. Glycolide family: PGA (Polyglycolic Acid), PGLA (Poly(glycolide-co-lactide)), PGDLLA (Poly(glycolide-co-D,L-lactide)). Lactide family: PLLA (Poly(L-lactic acid)), PDLA (Poly(D-lactic acid)), PDLLA (Poly(D,L-lactic acid)). Caprolactone / dioxanone family: LCL (Poly(L-lactide-co-ε-caprolactone)), PPDO (Poly(p-dioxanone)), PCL (Poly(ε-caprolactone)). Design space: a conceptual diagram showing that polymer selection, copolymer composition, molecular weight and processing conditions are used to design the degradation profile (faster to slower) and mechanical properties (rigid to flexible); property ranges differ by polymer and grade. 03 Processing and applications: pellets/resin processed into fiber, filament, film, sheet, membrane and block. Representative applications: absorbable suture, bone fixation, stent, scaffold and membrane. ISO 13485-certified quality management system.</desc>
+<style>
+  /* ===== Colors (edit here) — same tokens as LYDEX TECHNOLOGY figure ===== */
+  .bg      { fill:#F5F3EE; }
+  .t-k     { fill:#0A0A0A; }
+  .t-g     { fill:#5A5A5A; }
+  .t-gm    { fill:#8E8E8E; }
+  .t-l     { fill:#B5AFA3; }
+  .t-r     { fill:#C8102E; }
+  .s-k     { stroke:#0A0A0A; fill:none; }
+  .s-g     { stroke:#8E8E8E; fill:none; }
+  .s-line  { stroke:#CFCAC0; fill:none; }
+  .s-r     { stroke:#C8102E; fill:none; }
+  .f-r     { fill:#C8102E; }
+  .f-k     { fill:#0A0A0A; }
+  .f-g     { fill:#8E8E8E; }
+  .f-dg    { fill:#5A5A5A; }
+  .f-l     { fill:#CFCAC0; }
+  .f-tissue{ fill:#E4E0D7; }
+  .f-bg    { fill:#F5F3EE; }
+  .sf-g    { stroke:#8E8E8E; fill:#F5F3EE; }
+  .sf-k    { stroke:#0A0A0A; fill:#F5F3EE; }
+  /* ===== Type (same stacks as the corporate site / LYDEX figure) ===== */
+  .en   { font-family:'Times New Roman',Times,'Liberation Serif','Hiragino Mincho ProN','Yu Mincho',YuMincho,'BIZ UDPMincho','MS PMincho','Noto Serif JP','Noto Serif CJK JP','Source Han Serif JP','Source Han Serif','IPAexMincho',serif; }
+  .jp   { font-family:'Yu Mincho',YuMincho,'Hiragino Mincho ProN','Hiragino Mincho Pro','BIZ UDPMincho','MS PMincho','MS Mincho','Noto Serif JP','Noto Serif CJK JP','Source Han Serif JP','Source Han Serif','IPAexMincho','IPAMincho',serif; }
+  .chem { font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP','Noto Sans CJK JP',sans-serif; }
+</style>
+
+<rect id="background" class="bg" x="0" y="0" width="750" height="4393"/>
+<g id="sec1-design-concept">
+<text x="40.0" y="74.0" font-size="25" class="en t-r" letter-spacing="0.06em">01</text>
+<text x="86.0" y="74.0" font-size="23" class="en t-k" letter-spacing="0.14em">DESIGN CONCEPT</text>
+<text x="86.0" y="112.0" font-size="21" class="en t-g" letter-spacing="0.04em">Design philosophy</text>
+<line x1="40.0" y1="136.0" x2="710.0" y2="136.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="208.0" font-size="25" class="en t-r" letter-spacing="0.1em">i</text>
+<text x="78.0" y="208.0" font-size="33" class="en t-k">Function</text>
+<text x="78.0" y="248.0" font-size="22" class="en t-g">Performs its function for the required period</text>
+<rect x="78.0" y="274.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M120.4,297.8 L137.5,310.7 L154.6,297.8 L171.7,310.7 L188.8,297.8 L205.9,310.7 L223.0,297.8 L240.1,310.7 L257.2,297.8 L274.3,310.7 L291.4,297.8 L308.5,310.7 L325.6,297.8 L342.7,310.7 L359.8,297.8 L376.9,310.7 L394.0,297.8 L411.1,310.7 L428.2,297.8 L445.3,310.7 L462.4,297.8 L479.5,310.7 L496.6,297.8 L513.7,310.7 L530.8,297.8 L547.9,310.7 L565.0,297.8 L582.1,310.7 L599.2,297.8 L616.3,310.7 L633.4,297.8 L650.5,310.7 L667.6,297.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="105.0" y1="310.7" x2="120.4" y2="297.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="667.6" y1="297.8" x2="683.0" y2="310.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<path d="M111.9,337.6 L129.0,324.7 L146.1,337.6 L163.2,324.7 L180.3,337.6 L197.4,324.7 L214.5,337.6 L231.6,324.7 L248.7,337.6 L265.8,324.7 L282.9,337.6 L299.9,324.7 L317.1,337.6 L334.2,324.7 L351.2,337.6 L368.3,324.7 L385.4,337.6 L402.6,324.7 L419.6,337.6 L436.8,324.7 L453.8,337.6 L470.9,324.7 L488.0,337.6 L505.1,324.7 L522.2,337.6 L539.4,324.7 L556.5,337.6 L573.5,324.7 L590.6,337.6 L607.8,324.7 L624.8,337.6 L641.9,324.7 L659.0,337.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="96.5" y1="324.7" x2="111.9" y2="337.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="659.0" y1="337.6" x2="674.4" y2="324.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="394.0" y1="376.0" x2="394.0" y2="406.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M394.0,414.0 L390.6,406.0 L397.4,406.0 Z" class="f-k"/>
+<text x="40.0" y="472.0" font-size="25" class="en t-r" letter-spacing="0.1em">ii</text>
+<text x="78.0" y="472.0" font-size="33" class="en t-k">Degradation</text>
+<text x="78.0" y="512.0" font-size="22" class="en t-g">Polymer chain scission and decreasing molecular weight</text>
+<rect x="78.0" y="538.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M171.7,559.5 L188.8,572.4 L205.9,559.5 L223.0,572.4 L240.1,559.5 L257.2,572.4" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265.8" cy="568.2" r="3.99" class="f-r"/>
+<path d="M274.3,564.1 L291.4,577.0 L308.5,564.1 L325.6,577.0" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334.2" cy="568.2" r="3.99" class="f-r"/>
+<path d="M342.7,559.5 L359.8,572.4 L376.9,559.5 L394.0,572.4 L411.1,559.5 L428.2,572.4 L445.3,559.5" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="453.9" cy="568.2" r="3.99" class="f-r"/>
+<path d="M462.4,564.1 L479.5,577.0 L496.6,564.1 L513.7,577.0 L530.8,564.1" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="539.4" cy="568.2" r="3.99" class="f-r"/>
+<path d="M547.9,559.5 L565.0,572.4 L582.1,559.5 L599.2,572.4 L616.3,559.5" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163.2,599.3 L180.2,586.4 L197.3,599.3 L214.4,586.4 L231.6,599.3" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240.1" cy="595.1" r="3.99" class="f-r"/>
+<path d="M248.7,603.9 L265.8,590.9 L282.9,603.9 L299.9,590.9 L317.1,603.9 L334.1,590.9 L351.2,603.9" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="359.8" cy="595.1" r="3.99" class="f-r"/>
+<path d="M368.4,599.3 L385.5,586.4 L402.6,599.3 L419.7,586.4" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="428.2" cy="595.1" r="3.99" class="f-r"/>
+<path d="M436.8,603.9 L453.9,590.9 L471.0,603.9 L488.1,590.9 L505.2,603.9 L522.2,590.9" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="530.8" cy="595.1" r="3.99" class="f-r"/>
+<path d="M539.4,599.3 L556.5,586.4 L573.6,599.3 L590.6,586.4 L607.8,599.3" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="394.0" y1="640.0" x2="394.0" y2="670.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M394.0,678.0 L390.6,670.0 L397.4,670.0 Z" class="f-k"/>
+<text x="40.0" y="736.0" font-size="25" class="en t-r" letter-spacing="0.1em">iii</text>
+<text x="78.0" y="736.0" font-size="33" class="en t-k">Absorption / Clearance</text>
+<text x="78.0" y="776.0" font-size="22" class="en t-g">Low-molecular-weight products are processed in the body</text>
+<text x="78.0" y="807.0" font-size="22" class="en t-g">via material-dependent pathways</text>
+<rect x="78.0" y="833.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M122.2,856.8 L137.6,869.7 L153.0,856.8 L168.4,869.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.2,896.6 L175.5,883.7 L190.9,896.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286.6,856.8 L301.9,869.7 L317.3,856.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M305.5,896.6 L320.9,883.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M394.0,856.8 L409.4,869.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M406.6,896.6 L422.0,883.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="482.5" cy="863.2" r="3.23" class="f-g"/>
+<circle cx="501.4" cy="890.1" r="3.23" class="f-g"/>
+<circle cx="533.0" cy="863.2" r="3.23" class="f-g"/>
+<circle cx="552.0" cy="890.1" r="3.23" class="f-g"/>
+<line x1="589.9" y1="861.6" x2="665.2" y2="861.6" class="s-g" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M672.1,861.6 L665.2,864.6 L665.2,858.5 Z" class="f-g"/>
+<line x1="589.9" y1="888.4" x2="665.2" y2="888.4" class="s-g" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M672.1,888.4 L665.2,891.5 L665.2,885.4 Z" class="f-g"/>
+<line x1="78.0" y1="987.0" x2="112.0" y2="987.0" class="s-r" stroke-width="2" stroke-linecap="round"/>
+<text x="78.0" y="1029.0" font-size="29" class="en t-k" font-style="italic">Materials that disappear on purpose.</text>
+</g>
+<g id="sec2-material-platform">
+<text x="40.0" y="1133.0" font-size="25" class="en t-r" letter-spacing="0.06em">02</text>
+<text x="86.0" y="1133.0" font-size="23" class="en t-k" letter-spacing="0.14em">MATERIAL PLATFORM</text>
+<text x="86.0" y="1171.0" font-size="21" class="en t-g" letter-spacing="0.04em">Polymer portfolio</text>
+<line x1="40.0" y1="1195.0" x2="710.0" y2="1195.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="1285.0" font-size="70" class="en t-r">9</text>
+<text x="89.0" y="1285.0" font-size="48" class="en t-k">Polymer Families</text>
+<text x="40.0" y="1327.0" font-size="22" class="en t-g" font-style="italic">Biodegradable &amp; Absorbable Polymer Platform</text>
+<text x="40.0" y="1385.0" font-size="16" class="en t-gm" letter-spacing="0.1em">GLYCOLIDE FAMILY</text>
+<rect x="40.0" y="1403.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1403.0" x2="74.0" y2="1403.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1463.0" font-size="46" class="en t-k">PGA</text>
+<text x="276.0" y="1456.0" font-size="24" class="en t-g">Polyglycolic Acid</text>
+<rect x="40.0" y="1501.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1501.0" x2="74.0" y2="1501.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1561.0" font-size="46" class="en t-k">PGLA</text>
+<text x="276.0" y="1554.0"><tspan font-size="24" class="en t-g">Poly(glycolide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-lactide)</tspan></text>
+<rect x="40.0" y="1599.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1599.0" x2="74.0" y2="1599.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1659.0" font-size="46" class="en t-k">PGDLLA</text>
+<text x="276.0" y="1652.0"><tspan font-size="24" class="en t-g">Poly(glycolide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-D,L-lactide)</tspan></text>
+<text x="40.0" y="1731.0" font-size="16" class="en t-gm" letter-spacing="0.1em">LACTIDE FAMILY</text>
+<rect x="40.0" y="1749.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1749.0" x2="74.0" y2="1749.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1809.0" font-size="46" class="en t-k">PLLA</text>
+<text x="276.0" y="1802.0" font-size="24" class="en t-g">Poly(L-lactic acid)</text>
+<rect x="40.0" y="1847.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1847.0" x2="74.0" y2="1847.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1907.0" font-size="46" class="en t-k">PDLA</text>
+<text x="276.0" y="1900.0" font-size="24" class="en t-g">Poly(D-lactic acid)</text>
+<rect x="40.0" y="1945.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1945.0" x2="74.0" y2="1945.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2005.0" font-size="46" class="en t-k">PDLLA</text>
+<text x="276.0" y="1998.0" font-size="24" class="en t-g">Poly(D,L-lactic acid)</text>
+<text x="40.0" y="2077.0" font-size="16" class="en t-gm" letter-spacing="0.1em">CAPROLACTONE / DIOXANONE FAMILY</text>
+<rect x="40.0" y="2095.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2095.0" x2="74.0" y2="2095.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2155.0" font-size="46" class="en t-k">LCL</text>
+<text x="276.0" y="2148.0"><tspan font-size="24" class="en t-g">Poly(L-lactide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-</tspan><tspan font-size="24" class="en t-g" font-style="italic">ε</tspan><tspan font-size="24" class="en t-g">-caprolactone)</tspan></text>
+<rect x="40.0" y="2193.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2193.0" x2="74.0" y2="2193.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2253.0" font-size="46" class="en t-k">PPDO</text>
+<text x="276.0" y="2246.0"><tspan font-size="24" class="en t-g">Poly(</tspan><tspan font-size="24" class="en t-g" font-style="italic">p</tspan><tspan font-size="24" class="en t-g">-dioxanone)</tspan></text>
+<rect x="40.0" y="2291.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2291.0" x2="74.0" y2="2291.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2351.0" font-size="46" class="en t-k">PCL</text>
+<text x="276.0" y="2344.0"><tspan font-size="24" class="en t-g">Poly(</tspan><tspan font-size="24" class="en t-g" font-style="italic">ε</tspan><tspan font-size="24" class="en t-g">-caprolactone)</tspan></text>
+<line x1="40.0" y1="2433.0" x2="710.0" y2="2433.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="2473.0" font-size="17" class="en t-gm" letter-spacing="0.14em">DESIGN SPACE</text>
+<text x="40.0" y="2509.0" font-size="23" class="en t-k">Design freedom of material properties (conceptual)</text>
+<rect x="40.0" y="2557.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="56.0" y="2596.0" font-size="21" class="en t-k">Polymer selection</text>
+<rect x="385.0" y="2557.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="401.0" y="2596.0" font-size="21" class="en t-k">Copolymer composition</text>
+<rect x="40.0" y="2631.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="56.0" y="2670.0" font-size="21" class="en t-k">Molecular weight</text>
+<rect x="385.0" y="2631.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="401.0" y="2670.0" font-size="21" class="en t-k">Processing conditions</text>
+<line x1="375.0" y1="2705.0" x2="375.0" y2="2737.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M375.0,2745.0 L371.6,2737.0 L378.4,2737.0 Z" class="f-k"/>
+<text x="40.0" y="2797.0" font-size="23" class="en t-k">Degradation Profile</text>
+<line x1="40.0" y1="2861.0" x2="67.9" y2="2861.0" stroke="#CDCDCD" stroke-width="2.2"/>
+<line x1="67.9" y1="2861.0" x2="95.8" y2="2861.0" stroke="#CACACA" stroke-width="2.2"/>
+<line x1="95.8" y1="2861.0" x2="123.8" y2="2861.0" stroke="#C8C8C8" stroke-width="2.2"/>
+<line x1="123.8" y1="2861.0" x2="151.7" y2="2861.0" stroke="#C5C5C5" stroke-width="2.2"/>
+<line x1="151.7" y1="2861.0" x2="179.6" y2="2861.0" stroke="#C2C2C2" stroke-width="2.2"/>
+<line x1="179.6" y1="2861.0" x2="207.5" y2="2861.0" stroke="#C0C0C0" stroke-width="2.2"/>
+<line x1="207.5" y1="2861.0" x2="235.4" y2="2861.0" stroke="#BDBDBD" stroke-width="2.2"/>
+<line x1="235.4" y1="2861.0" x2="263.3" y2="2861.0" stroke="#BABABA" stroke-width="2.2"/>
+<line x1="263.3" y1="2861.0" x2="291.2" y2="2861.0" stroke="#B7B7B7" stroke-width="2.2"/>
+<line x1="291.2" y1="2861.0" x2="319.2" y2="2861.0" stroke="#B5B5B5" stroke-width="2.2"/>
+<line x1="319.2" y1="2861.0" x2="347.1" y2="2861.0" stroke="#B2B2B2" stroke-width="2.2"/>
+<line x1="347.1" y1="2861.0" x2="375.0" y2="2861.0" stroke="#AFAFAF" stroke-width="2.2"/>
+<line x1="375.0" y1="2861.0" x2="402.9" y2="2861.0" stroke="#ADADAD" stroke-width="2.2"/>
+<line x1="402.9" y1="2861.0" x2="430.8" y2="2861.0" stroke="#AAAAAA" stroke-width="2.2"/>
+<line x1="430.8" y1="2861.0" x2="458.8" y2="2861.0" stroke="#A7A7A7" stroke-width="2.2"/>
+<line x1="458.8" y1="2861.0" x2="486.7" y2="2861.0" stroke="#A5A5A5" stroke-width="2.2"/>
+<line x1="486.7" y1="2861.0" x2="514.6" y2="2861.0" stroke="#A2A2A2" stroke-width="2.2"/>
+<line x1="514.6" y1="2861.0" x2="542.5" y2="2861.0" stroke="#9F9F9F" stroke-width="2.2"/>
+<line x1="542.5" y1="2861.0" x2="570.4" y2="2861.0" stroke="#9C9C9C" stroke-width="2.2"/>
+<line x1="570.4" y1="2861.0" x2="598.3" y2="2861.0" stroke="#9A9A9A" stroke-width="2.2"/>
+<line x1="598.3" y1="2861.0" x2="626.2" y2="2861.0" stroke="#979797" stroke-width="2.2"/>
+<line x1="626.2" y1="2861.0" x2="654.2" y2="2861.0" stroke="#949494" stroke-width="2.2"/>
+<line x1="654.2" y1="2861.0" x2="682.1" y2="2861.0" stroke="#929292" stroke-width="2.2"/>
+<line x1="682.1" y1="2861.0" x2="710.0" y2="2861.0" stroke="#8F8F8F" stroke-width="2.2"/>
+<rect x="66.8" y="2841.0" width="174.2" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="174.0" y="2828.2" width="214.4" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="308.0" y="2841.0" width="201.0" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="455.4" y="2828.2" width="221.1" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<text x="40.0" y="2891.0" font-size="19" class="en t-gm" font-style="italic">faster</text>
+<text x="710.0" y="2891.0" font-size="19" class="en t-gm" font-style="italic" text-anchor="end">slower</text>
+<text x="40.0" y="2953.0" font-size="23" class="en t-k">Mechanical Properties</text>
+<line x1="40.0" y1="3017.0" x2="67.9" y2="3017.0" stroke="#CDCDCD" stroke-width="2.2"/>
+<line x1="67.9" y1="3017.0" x2="95.8" y2="3017.0" stroke="#CACACA" stroke-width="2.2"/>
+<line x1="95.8" y1="3017.0" x2="123.8" y2="3017.0" stroke="#C8C8C8" stroke-width="2.2"/>
+<line x1="123.8" y1="3017.0" x2="151.7" y2="3017.0" stroke="#C5C5C5" stroke-width="2.2"/>
+<line x1="151.7" y1="3017.0" x2="179.6" y2="3017.0" stroke="#C2C2C2" stroke-width="2.2"/>
+<line x1="179.6" y1="3017.0" x2="207.5" y2="3017.0" stroke="#C0C0C0" stroke-width="2.2"/>
+<line x1="207.5" y1="3017.0" x2="235.4" y2="3017.0" stroke="#BDBDBD" stroke-width="2.2"/>
+<line x1="235.4" y1="3017.0" x2="263.3" y2="3017.0" stroke="#BABABA" stroke-width="2.2"/>
+<line x1="263.3" y1="3017.0" x2="291.2" y2="3017.0" stroke="#B7B7B7" stroke-width="2.2"/>
+<line x1="291.2" y1="3017.0" x2="319.2" y2="3017.0" stroke="#B5B5B5" stroke-width="2.2"/>
+<line x1="319.2" y1="3017.0" x2="347.1" y2="3017.0" stroke="#B2B2B2" stroke-width="2.2"/>
+<line x1="347.1" y1="3017.0" x2="375.0" y2="3017.0" stroke="#AFAFAF" stroke-width="2.2"/>
+<line x1="375.0" y1="3017.0" x2="402.9" y2="3017.0" stroke="#ADADAD" stroke-width="2.2"/>
+<line x1="402.9" y1="3017.0" x2="430.8" y2="3017.0" stroke="#AAAAAA" stroke-width="2.2"/>
+<line x1="430.8" y1="3017.0" x2="458.8" y2="3017.0" stroke="#A7A7A7" stroke-width="2.2"/>
+<line x1="458.8" y1="3017.0" x2="486.7" y2="3017.0" stroke="#A5A5A5" stroke-width="2.2"/>
+<line x1="486.7" y1="3017.0" x2="514.6" y2="3017.0" stroke="#A2A2A2" stroke-width="2.2"/>
+<line x1="514.6" y1="3017.0" x2="542.5" y2="3017.0" stroke="#9F9F9F" stroke-width="2.2"/>
+<line x1="542.5" y1="3017.0" x2="570.4" y2="3017.0" stroke="#9C9C9C" stroke-width="2.2"/>
+<line x1="570.4" y1="3017.0" x2="598.3" y2="3017.0" stroke="#9A9A9A" stroke-width="2.2"/>
+<line x1="598.3" y1="3017.0" x2="626.2" y2="3017.0" stroke="#979797" stroke-width="2.2"/>
+<line x1="626.2" y1="3017.0" x2="654.2" y2="3017.0" stroke="#949494" stroke-width="2.2"/>
+<line x1="654.2" y1="3017.0" x2="682.1" y2="3017.0" stroke="#929292" stroke-width="2.2"/>
+<line x1="682.1" y1="3017.0" x2="710.0" y2="3017.0" stroke="#8F8F8F" stroke-width="2.2"/>
+<rect x="73.5" y="2984.2" width="234.5" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="227.6" y="2997.0" width="201.0" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="375.0" y="2984.2" width="187.6" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="509.0" y="2997.0" width="174.2" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<text x="40.0" y="3047.0" font-size="19" class="en t-gm" font-style="italic">rigid</text>
+<text x="710.0" y="3047.0" font-size="19" class="en t-gm" font-style="italic" text-anchor="end">flexible</text>
+<rect x="40.0" y="3099.0" width="30.0" height="7.0" rx="3.5" class="f-l"/>
+<text x="82.0" y="3109.0" font-size="20" class="en t-g">Property ranges differ by polymer and grade (conceptual)</text>
+</g>
+<g id="sec3-processing-applications">
+<text x="40.0" y="3213.0" font-size="25" class="en t-r" letter-spacing="0.06em">03</text>
+<text x="86.0" y="3213.0" font-size="23" class="en t-k" letter-spacing="0.14em">PROCESSING &amp; APPLICATIONS</text>
+<text x="86.0" y="3251.0" font-size="21" class="en t-g" letter-spacing="0.04em">Forms and applications</text>
+<line x1="40.0" y1="3275.0" x2="710.0" y2="3275.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="3349.0" font-size="31" class="en t-k">Processing</text>
+<ellipse cx="49.0" cy="3412.0" rx="6.9" ry="4.9" transform="rotate(-15 49.0 3412.0)" class="f-dg"/>
+<ellipse cx="62.5" cy="3400.0" rx="6.9" ry="4.9" transform="rotate(7 62.5 3400.0)" class="f-g"/>
+<ellipse cx="77.5" cy="3410.5" rx="6.9" ry="4.9" transform="rotate(4 77.5 3410.5)" class="f-g"/>
+<ellipse cx="92.5" cy="3398.5" rx="6.9" ry="4.9" transform="rotate(-22 92.5 3398.5)" class="f-dg"/>
+<ellipse cx="59.5" cy="3421.0" rx="6.9" ry="4.9" transform="rotate(-7 59.5 3421.0)" class="f-g"/>
+<ellipse cx="83.5" cy="3424.0" rx="6.9" ry="4.9" transform="rotate(28 83.5 3424.0)" class="f-g"/>
+<ellipse cx="73.0" cy="3389.5" rx="6.9" ry="4.9" transform="rotate(8 73.0 3389.5)" class="f-dg"/>
+<ellipse cx="98.5" cy="3416.5" rx="6.9" ry="4.9" transform="rotate(0 98.5 3416.5)" class="f-g"/>
+<ellipse cx="46.0" cy="3394.0" rx="6.9" ry="4.9" transform="rotate(10 46.0 3394.0)" class="f-g"/>
+<text x="122.0" y="3413.0" font-size="20" class="en t-g">Pellet / Resin</text>
+<line x1="70.0" y1="3437.0" x2="70.0" y2="3463.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="70.0" y1="3463.0" x2="598.3" y2="3463.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="151.7" y1="3463.0" x2="151.7" y2="3482.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M151.7,3489.0 L148.7,3482.0 L154.7,3482.0 Z" class="f-g"/>
+<line x1="375.0" y1="3463.0" x2="375.0" y2="3482.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M375.0,3489.0 L372.0,3482.0 L378.0,3482.0 Z" class="f-g"/>
+<line x1="598.3" y1="3463.0" x2="598.3" y2="3482.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M598.3,3489.0 L595.3,3482.0 L601.3,3482.0 Z" class="f-g"/>
+<path d="M121.7,3513.5 C141.2,3507.5 162.2,3519.5 181.7,3513.5" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3521.0 C141.2,3515.0 162.2,3527.0 181.7,3521.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3528.5 C141.2,3522.5 162.2,3534.5 181.7,3528.5" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3536.0 C141.2,3530.0 162.2,3542.0 181.7,3536.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151.7" y="3581.0" font-size="23" class="en t-k" text-anchor="middle">Fiber</text>
+<path d="M345.0,3536.0 C363.0,3506.0 384.0,3548.0 405.0,3515.0" class="s-k" stroke-width="2.449489742783178" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="375.0" y="3581.0" font-size="23" class="en t-k" text-anchor="middle">Filament</text>
+<path d="M568.3,3539.0 L586.3,3518.0 L628.3,3518.0 L610.3,3539.0 Z" class="sf-g" stroke-width="1.224744871391589" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="598.3" y="3581.0" font-size="23" class="en t-k" text-anchor="middle">Film</text>
+<path d="M121.7,3652.5 L121.7,3660.0 L163.7,3660.0 L181.7,3639.0 L181.7,3631.5" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="163.7" y1="3652.5" x2="163.7" y2="3660.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round"/>
+<path d="M121.7,3652.5 L139.7,3631.5 L181.7,3631.5 L163.7,3652.5 Z" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151.7" y="3699.0" font-size="23" class="en t-k" text-anchor="middle">Sheet</text>
+<path d="M345.0,3657.0 L363.0,3636.0 L405.0,3636.0 L387.0,3657.0 Z" class="sf-g" stroke-width="1.224744871391589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="366.0" cy="3641.2" r="1.42" class="f-g"/>
+<circle cx="374.1" cy="3641.2" r="1.42" class="f-g"/>
+<circle cx="382.2" cy="3641.2" r="1.42" class="f-g"/>
+<circle cx="390.3" cy="3641.2" r="1.42" class="f-g"/>
+<circle cx="398.4" cy="3641.2" r="1.42" class="f-g"/>
+<circle cx="361.1" cy="3646.9" r="1.42" class="f-g"/>
+<circle cx="369.2" cy="3646.9" r="1.42" class="f-g"/>
+<circle cx="377.3" cy="3646.9" r="1.42" class="f-g"/>
+<circle cx="385.4" cy="3646.9" r="1.42" class="f-g"/>
+<circle cx="393.5" cy="3646.9" r="1.42" class="f-g"/>
+<circle cx="356.2" cy="3652.7" r="1.42" class="f-g"/>
+<circle cx="364.3" cy="3652.7" r="1.42" class="f-g"/>
+<circle cx="372.4" cy="3652.7" r="1.42" class="f-g"/>
+<circle cx="380.5" cy="3652.7" r="1.42" class="f-g"/>
+<circle cx="388.6" cy="3652.7" r="1.42" class="f-g"/>
+<text x="375.0" y="3699.0" font-size="23" class="en t-k" text-anchor="middle">Membrane</text>
+<path d="M574.3,3639.0 L607.3,3639.0 L607.3,3666.0 L574.3,3666.0 Z" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M574.3,3639.0 L586.3,3627.0 L619.3,3627.0 L607.3,3639.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M619.3,3627.0 L619.3,3654.0 L607.3,3666.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="598.3" y="3699.0" font-size="23" class="en t-k" text-anchor="middle">Block</text>
+<text x="40.0" y="3803.0" font-size="31" class="en t-k">Applications</text>
+<text x="710.0" y="3803.0" font-size="20" class="en t-g" text-anchor="end">Representative examples</text>
+<path d="M44.0,3859.9 A12.2,12.2 0 0 1 68.3,3859.9" class="s-k" stroke-width="1.626653005407115" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.0,3859.9 C46.8,3870.7 58.9,3862.6 61.6,3870.7 S72.4,3873.4 77.8,3866.7" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="3867.0" font-size="23" class="en t-k">Absorbable Suture</text>
+<line x1="98.0" y1="3883.0" x2="710.0" y2="3883.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M42.7,3908.4 L49.5,3908.4 L49.5,3921.9 L42.7,3921.9 Z" class="sf-k" stroke-width="1.39427400463467" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.5,3911.2 L72.4,3911.2 L77.8,3915.2 L72.4,3919.2 L49.5,3919.2" class="s-k" stroke-width="1.39427400463467" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="52.1" y1="3909.1" x2="55.4" y2="3921.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="56.5" y1="3909.1" x2="59.7" y2="3921.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="60.8" y1="3909.1" x2="64.0" y2="3921.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="65.1" y1="3909.1" x2="68.3" y2="3921.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="69.4" y1="3909.1" x2="72.7" y2="3921.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<text x="98.0" y="3925.0" font-size="23" class="en t-k">Bone Fixation</text>
+<line x1="98.0" y1="3941.0" x2="710.0" y2="3941.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="42.7" y1="3963.8" x2="75.1" y2="3963.8" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="3982.7" x2="75.1" y2="3982.7" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<path d="M42.7,3963.8 L46.8,3973.2 L50.8,3963.8 L54.9,3973.2 L58.9,3963.8 L63.0,3973.2 L67.0,3963.8 L71.0,3973.2 L75.1,3963.8" class="s-k" stroke-width="1.2780845042484477" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.7,3982.7 L46.8,3973.2 L50.8,3982.7 L54.9,3973.2 L58.9,3982.7 L63.0,3973.2 L67.0,3982.7 L71.0,3973.2 L75.1,3982.7" class="s-k" stroke-width="1.2780845042484477" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="3983.0" font-size="23" class="en t-k">Stent</text>
+<line x1="98.0" y1="3999.0" x2="710.0" y2="3999.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="45.4" y1="4019.1" x2="45.4" y2="4043.3" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="53.5" y1="4019.1" x2="53.5" y2="4043.3" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="61.6" y1="4019.1" x2="61.6" y2="4043.3" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="69.7" y1="4019.1" x2="69.7" y2="4043.3" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4021.8" x2="72.4" y2="4021.8" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4028.5" x2="72.4" y2="4028.5" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4035.2" x2="72.4" y2="4035.2" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4042.0" x2="72.4" y2="4042.0" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<text x="98.0" y="4041.0" font-size="23" class="en t-k">Scaffold</text>
+<line x1="98.0" y1="4057.0" x2="710.0" y2="4057.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M41.4,4091.9 C50.8,4081.1 61.6,4100.0 76.5,4086.5" class="s-k" stroke-width="1.5104635050208928" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.4,4097.3 C50.8,4086.5 61.6,4105.4 76.5,4091.9" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="4099.0" font-size="23" class="en t-k">Membrane</text>
+<line x1="98.0" y1="4115.0" x2="710.0" y2="4115.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="40.0" y="4185.0" width="670.0" height="132.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="4185.0" x2="40.0" y2="4317.0" class="s-r" stroke-width="3.5" stroke-linecap="round"/>
+<text x="68.0" y="4239.0" font-size="29" class="en t-k">ISO 13485-Certified QMS</text>
+<text x="68.0" y="4281.0" font-size="23" class="en t-g">Quality Management System</text>
+</g>
+</svg>

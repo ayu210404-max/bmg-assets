@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="ja" viewBox="0 0 750 4523" width="750" height="4523" role="img" aria-labelledby="t d">
+<title id="t">BioDegmer TECHNOLOGY 模式図</title>
+<desc id="d">BioDegmerの技術概念図。設計思想（機能維持→分解→吸収・排出）、9種類の医療用生体内分解吸収性ポリマーと材料特性の設計自由度、加工形態と代表的な用途例、ISO 13485認証を取得した品質マネジメントシステムを示す。 01 設計思想：材料は必要な期間、機能を果たした後、高分子鎖の切断によって分子量が低下し、低分子化した分解生成物が材料に応じた経路で生体内処理される。02 材料プラットフォーム：9種類のポリマーファミリー。グリコリド系のPGA（Polyglycolic Acid）、PGLA（Poly(glycolide-co-lactide)）、PGDLLA（Poly(glycolide-co-D,L-lactide)）。ラクチド系のPLLA（Poly(L-lactic acid)）、PDLA（Poly(D-lactic acid)）、PDLLA（Poly(D,L-lactic acid)）。カプロラクトン・ジオキサノン系のLCL（Poly(L-lactide-co-ε-caprolactone)）、PPDO（Poly(p-dioxanone)）、PCL（Poly(ε-caprolactone)）。DESIGN SPACE：材料の選択・共重合組成・分子量・加工条件によって、分解挙動（速い〜遅い）と力学特性（硬い〜柔軟）を設計する考え方を示す概念図。特性の範囲は材料・グレードごとに異なる。03 加工形態と用途展開：ペレット／レジンから繊維、フィラメント、フィルム、シート、メンブレン、ブロックへ加工。代表的な用途例は吸収性縫合糸、骨固定材、ステント、スキャフォールド、メンブレン。ISO 13485認証を取得した品質マネジメントシステム。</desc>
+<style>
+  /* ===== Colors (edit here) — same tokens as LYDEX TECHNOLOGY figure ===== */
+  .bg      { fill:#F5F3EE; }
+  .t-k     { fill:#0A0A0A; }
+  .t-g     { fill:#5A5A5A; }
+  .t-gm    { fill:#8E8E8E; }
+  .t-l     { fill:#B5AFA3; }
+  .t-r     { fill:#C8102E; }
+  .s-k     { stroke:#0A0A0A; fill:none; }
+  .s-g     { stroke:#8E8E8E; fill:none; }
+  .s-line  { stroke:#CFCAC0; fill:none; }
+  .s-r     { stroke:#C8102E; fill:none; }
+  .f-r     { fill:#C8102E; }
+  .f-k     { fill:#0A0A0A; }
+  .f-g     { fill:#8E8E8E; }
+  .f-dg    { fill:#5A5A5A; }
+  .f-l     { fill:#CFCAC0; }
+  .f-tissue{ fill:#E4E0D7; }
+  .f-bg    { fill:#F5F3EE; }
+  .sf-g    { stroke:#8E8E8E; fill:#F5F3EE; }
+  .sf-k    { stroke:#0A0A0A; fill:#F5F3EE; }
+  /* ===== Type (same stacks as the corporate site / LYDEX figure) ===== */
+  .en   { font-family:'Times New Roman',Times,'Liberation Serif','Hiragino Mincho ProN','Yu Mincho',YuMincho,'BIZ UDPMincho','MS PMincho','Noto Serif JP','Noto Serif CJK JP','Source Han Serif JP','Source Han Serif','IPAexMincho',serif; }
+  .jp   { font-family:'Yu Mincho',YuMincho,'Hiragino Mincho ProN','Hiragino Mincho Pro','BIZ UDPMincho','MS PMincho','MS Mincho','Noto Serif JP','Noto Serif CJK JP','Source Han Serif JP','Source Han Serif','IPAexMincho','IPAMincho',serif; }
+  .chem { font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP','Noto Sans CJK JP',sans-serif; }
+</style>
+
+<rect id="background" class="bg" x="0" y="0" width="750" height="4523"/>
+<g id="sec1-design-concept">
+<text x="40.0" y="74.0" font-size="25" class="en t-r" letter-spacing="0.06em">01</text>
+<text x="86.0" y="74.0" font-size="23" class="en t-k" letter-spacing="0.14em">DESIGN CONCEPT</text>
+<text x="86.0" y="112.0" font-size="21" class="jp t-g" letter-spacing="0.1em">設計思想</text>
+<line x1="40.0" y1="136.0" x2="710.0" y2="136.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="208.0" font-size="25" class="en t-r" letter-spacing="0.1em">i</text>
+<text x="78.0" y="208.0" font-size="33" class="en t-k">Function</text>
+<text x="78.0" y="246.0" font-size="23" class="jp t-k" letter-spacing="0.08em">機能維持</text>
+<text x="78.0" y="280.0" font-size="21" class="jp t-g" letter-spacing="0.03em">必要な期間、材料としての機能を果たす</text>
+<rect x="78.0" y="304.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M120.4,327.8 L137.5,340.7 L154.6,327.8 L171.7,340.7 L188.8,327.8 L205.9,340.7 L223.0,327.8 L240.1,340.7 L257.2,327.8 L274.3,340.7 L291.4,327.8 L308.5,340.7 L325.6,327.8 L342.7,340.7 L359.8,327.8 L376.9,340.7 L394.0,327.8 L411.1,340.7 L428.2,327.8 L445.3,340.7 L462.4,327.8 L479.5,340.7 L496.6,327.8 L513.7,340.7 L530.8,327.8 L547.9,340.7 L565.0,327.8 L582.1,340.7 L599.2,327.8 L616.3,340.7 L633.4,327.8 L650.5,340.7 L667.6,327.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="105.0" y1="340.7" x2="120.4" y2="327.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="667.6" y1="327.8" x2="683.0" y2="340.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<path d="M111.9,367.6 L129.0,354.7 L146.1,367.6 L163.2,354.7 L180.3,367.6 L197.4,354.7 L214.5,367.6 L231.6,354.7 L248.7,367.6 L265.8,354.7 L282.9,367.6 L299.9,354.7 L317.1,367.6 L334.2,354.7 L351.2,367.6 L368.3,354.7 L385.4,367.6 L402.6,354.7 L419.6,367.6 L436.8,354.7 L453.8,367.6 L470.9,354.7 L488.0,367.6 L505.1,354.7 L522.2,367.6 L539.4,354.7 L556.5,367.6 L573.5,354.7 L590.6,367.6 L607.8,354.7 L624.8,367.6 L641.9,354.7 L659.0,367.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="96.5" y1="354.7" x2="111.9" y2="367.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="659.0" y1="367.6" x2="674.4" y2="354.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-dasharray="2.5 2.5"/>
+<line x1="394.0" y1="406.0" x2="394.0" y2="436.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M394.0,444.0 L390.6,436.0 L397.4,436.0 Z" class="f-k"/>
+<text x="40.0" y="502.0" font-size="25" class="en t-r" letter-spacing="0.1em">ii</text>
+<text x="78.0" y="502.0" font-size="33" class="en t-k">Degradation</text>
+<text x="78.0" y="540.0" font-size="23" class="jp t-k" letter-spacing="0.08em">分解</text>
+<text x="78.0" y="574.0" font-size="21" class="jp t-g" letter-spacing="0.03em">高分子鎖の切断・分子量の低下</text>
+<rect x="78.0" y="598.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M171.7,619.5 L188.8,632.4 L205.9,619.5 L223.0,632.4 L240.1,619.5 L257.2,632.4" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265.8" cy="628.2" r="3.99" class="f-r"/>
+<path d="M274.3,624.1 L291.4,637.0 L308.5,624.1 L325.6,637.0" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334.2" cy="628.2" r="3.99" class="f-r"/>
+<path d="M342.7,619.5 L359.8,632.4 L376.9,619.5 L394.0,632.4 L411.1,619.5 L428.2,632.4 L445.3,619.5" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="453.9" cy="628.2" r="3.99" class="f-r"/>
+<path d="M462.4,624.1 L479.5,637.0 L496.6,624.1 L513.7,637.0 L530.8,624.1" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="539.4" cy="628.2" r="3.99" class="f-r"/>
+<path d="M547.9,619.5 L565.0,632.4 L582.1,619.5 L599.2,632.4 L616.3,619.5" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163.2,659.3 L180.2,646.4 L197.3,659.3 L214.4,646.4 L231.6,659.3" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240.1" cy="655.1" r="3.99" class="f-r"/>
+<path d="M248.7,663.9 L265.8,650.9 L282.9,663.9 L299.9,650.9 L317.1,663.9 L334.1,650.9 L351.2,663.9" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="359.8" cy="655.1" r="3.99" class="f-r"/>
+<path d="M368.4,659.3 L385.5,646.4 L402.6,659.3 L419.7,646.4" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="428.2" cy="655.1" r="3.99" class="f-r"/>
+<path d="M436.8,663.9 L453.9,650.9 L471.0,663.9 L488.1,650.9 L505.2,663.9 L522.2,650.9" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="530.8" cy="655.1" r="3.99" class="f-r"/>
+<path d="M539.4,659.3 L556.5,646.4 L573.6,659.3 L590.6,646.4 L607.8,659.3" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="394.0" y1="700.0" x2="394.0" y2="730.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M394.0,738.0 L390.6,730.0 L397.4,730.0 Z" class="f-k"/>
+<text x="40.0" y="796.0" font-size="25" class="en t-r" letter-spacing="0.1em">iii</text>
+<text x="78.0" y="796.0" font-size="33" class="en t-k">Absorption / Clearance</text>
+<text x="78.0" y="834.0" font-size="23" class="jp t-k" letter-spacing="0.08em">吸収・排出</text>
+<text x="78.0" y="868.0" font-size="21" class="jp t-g" letter-spacing="0.03em">低分子化した分解生成物が、</text>
+<text x="78.0" y="899.0" font-size="21" class="jp t-g" letter-spacing="0.03em">材料に応じた経路で生体内処理される</text>
+<rect x="78.0" y="923.0" width="632.0" height="84.0" class="f-tissue"/>
+<path d="M122.2,946.8 L137.6,959.7 L153.0,946.8 L168.4,959.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.2,986.6 L175.5,973.7 L190.9,986.6" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286.6,946.8 L301.9,959.7 L317.3,946.8" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M305.5,986.6 L320.9,973.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M394.0,946.8 L409.4,959.7" class="s-k" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M406.6,986.6 L422.0,973.7" class="s-g" stroke-width="2.20466912249057" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="482.5" cy="953.2" r="3.23" class="f-g"/>
+<circle cx="501.4" cy="980.1" r="3.23" class="f-g"/>
+<circle cx="533.0" cy="953.2" r="3.23" class="f-g"/>
+<circle cx="552.0" cy="980.1" r="3.23" class="f-g"/>
+<line x1="589.9" y1="951.6" x2="665.2" y2="951.6" class="s-g" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M672.1,951.6 L665.2,954.6 L665.2,948.5 Z" class="f-g"/>
+<line x1="589.9" y1="978.4" x2="665.2" y2="978.4" class="s-g" stroke-width="1.1" stroke-linecap="round"/>
+<path d="M672.1,978.4 L665.2,981.5 L665.2,975.4 Z" class="f-g"/>
+<line x1="78.0" y1="1077.0" x2="112.0" y2="1077.0" class="s-r" stroke-width="2" stroke-linecap="round"/>
+<text x="78.0" y="1119.0" font-size="29" class="en t-k" font-style="italic">Materials that disappear on purpose.</text>
+</g>
+<g id="sec2-material-platform">
+<text x="40.0" y="1223.0" font-size="25" class="en t-r" letter-spacing="0.06em">02</text>
+<text x="86.0" y="1223.0" font-size="23" class="en t-k" letter-spacing="0.14em">MATERIAL PLATFORM</text>
+<text x="86.0" y="1261.0" font-size="21" class="jp t-g" letter-spacing="0.1em">材料プラットフォーム</text>
+<line x1="40.0" y1="1285.0" x2="710.0" y2="1285.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="1375.0" font-size="70" class="en t-r">9</text>
+<text x="89.0" y="1375.0" font-size="48" class="en t-k">Polymer Families</text>
+<text x="40.0" y="1417.0" font-size="22" class="en t-g" font-style="italic">Biodegradable &amp; Absorbable Polymer Platform</text>
+<text x="40.0" y="1451.0" font-size="20" class="jp t-g" letter-spacing="0.04em">医療用生体内分解吸収性ポリマープラットフォーム</text>
+<text x="40.0" y="1507.0" font-size="16" class="en t-gm" letter-spacing="0.1em">GLYCOLIDE FAMILY</text>
+<text x="230.1" y="1507.0" font-size="17" class="jp t-gm" letter-spacing="0.04em">グリコリド系</text>
+<rect x="40.0" y="1525.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1525.0" x2="74.0" y2="1525.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1585.0" font-size="46" class="en t-k">PGA</text>
+<text x="276.0" y="1578.0" font-size="24" class="en t-g">Polyglycolic Acid</text>
+<rect x="40.0" y="1623.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1623.0" x2="74.0" y2="1623.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1683.0" font-size="46" class="en t-k">PGLA</text>
+<text x="276.0" y="1676.0"><tspan font-size="24" class="en t-g">Poly(glycolide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-lactide)</tspan></text>
+<rect x="40.0" y="1721.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1721.0" x2="74.0" y2="1721.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1781.0" font-size="46" class="en t-k">PGDLLA</text>
+<text x="276.0" y="1774.0"><tspan font-size="24" class="en t-g">Poly(glycolide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-D,L-lactide)</tspan></text>
+<text x="40.0" y="1853.0" font-size="16" class="en t-gm" letter-spacing="0.1em">LACTIDE FAMILY</text>
+<text x="205.4" y="1853.0" font-size="17" class="jp t-gm" letter-spacing="0.04em">ラクチド系</text>
+<rect x="40.0" y="1871.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1871.0" x2="74.0" y2="1871.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="1931.0" font-size="46" class="en t-k">PLLA</text>
+<text x="276.0" y="1924.0" font-size="24" class="en t-g">Poly(L-lactic acid)</text>
+<rect x="40.0" y="1969.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="1969.0" x2="74.0" y2="1969.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2029.0" font-size="46" class="en t-k">PDLA</text>
+<text x="276.0" y="2022.0" font-size="24" class="en t-g">Poly(D-lactic acid)</text>
+<rect x="40.0" y="2067.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2067.0" x2="74.0" y2="2067.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2127.0" font-size="46" class="en t-k">PDLLA</text>
+<text x="276.0" y="2120.0" font-size="24" class="en t-g">Poly(D,L-lactic acid)</text>
+<text x="40.0" y="2199.0" font-size="16" class="en t-gm" letter-spacing="0.1em">CAPROLACTONE / DIOXANONE FAMILY</text>
+<text x="400.3" y="2199.0" font-size="17" class="jp t-gm" letter-spacing="0.04em">カプロラクトン・ジオキサノン系</text>
+<rect x="40.0" y="2217.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2217.0" x2="74.0" y2="2217.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2277.0" font-size="46" class="en t-k">LCL</text>
+<text x="276.0" y="2270.0"><tspan font-size="24" class="en t-g">Poly(L-lactide-</tspan><tspan font-size="24" class="en t-g" font-style="italic">co</tspan><tspan font-size="24" class="en t-g">-</tspan><tspan font-size="24" class="en t-g" font-style="italic">ε</tspan><tspan font-size="24" class="en t-g">-caprolactone)</tspan></text>
+<rect x="40.0" y="2315.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2315.0" x2="74.0" y2="2315.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2375.0" font-size="46" class="en t-k">PPDO</text>
+<text x="276.0" y="2368.0"><tspan font-size="24" class="en t-g">Poly(</tspan><tspan font-size="24" class="en t-g" font-style="italic">p</tspan><tspan font-size="24" class="en t-g">-dioxanone)</tspan></text>
+<rect x="40.0" y="2413.0" width="670.0" height="86.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="2413.0" x2="74.0" y2="2413.0" class="s-k" stroke-width="2" stroke-linecap="round"/>
+<text x="60.0" y="2473.0" font-size="46" class="en t-k">PCL</text>
+<text x="276.0" y="2466.0"><tspan font-size="24" class="en t-g">Poly(</tspan><tspan font-size="24" class="en t-g" font-style="italic">ε</tspan><tspan font-size="24" class="en t-g">-caprolactone)</tspan></text>
+<line x1="40.0" y1="2555.0" x2="710.0" y2="2555.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="2595.0" font-size="17" class="en t-gm" letter-spacing="0.14em">DESIGN SPACE</text>
+<text x="200.5" y="2595.0" font-size="21" class="jp t-k" letter-spacing="0.04em">材料特性の設計自由度（概念図）</text>
+<rect x="40.0" y="2647.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="56.0" y="2674.0" font-size="20" class="en t-k">Polymer selection</text>
+<text x="56.0" y="2698.0" font-size="18" class="jp t-g" letter-spacing="0.04em">材料の選択</text>
+<rect x="385.0" y="2647.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="401.0" y="2674.0" font-size="20" class="en t-k">Copolymer composition</text>
+<text x="401.0" y="2698.0" font-size="18" class="jp t-g" letter-spacing="0.04em">共重合組成</text>
+<rect x="40.0" y="2721.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="56.0" y="2748.0" font-size="20" class="en t-k">Molecular weight</text>
+<text x="56.0" y="2772.0" font-size="18" class="jp t-g" letter-spacing="0.04em">分子量</text>
+<rect x="385.0" y="2721.0" width="325.0" height="62.0" class="s-line" stroke-width="1.2"/>
+<text x="401.0" y="2748.0" font-size="20" class="en t-k">Processing conditions</text>
+<text x="401.0" y="2772.0" font-size="18" class="jp t-g" letter-spacing="0.04em">加工条件</text>
+<line x1="375.0" y1="2795.0" x2="375.0" y2="2827.0" class="s-k" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M375.0,2835.0 L371.6,2827.0 L378.4,2827.0 Z" class="f-k"/>
+<text x="40.0" y="2887.0" font-size="23" class="en t-k">Degradation Profile</text>
+<text x="234.0" y="2887.0" font-size="19" class="jp t-g" letter-spacing="0.04em">分解挙動</text>
+<line x1="40.0" y1="2951.0" x2="67.9" y2="2951.0" stroke="#CDCDCD" stroke-width="2.2"/>
+<line x1="67.9" y1="2951.0" x2="95.8" y2="2951.0" stroke="#CACACA" stroke-width="2.2"/>
+<line x1="95.8" y1="2951.0" x2="123.8" y2="2951.0" stroke="#C8C8C8" stroke-width="2.2"/>
+<line x1="123.8" y1="2951.0" x2="151.7" y2="2951.0" stroke="#C5C5C5" stroke-width="2.2"/>
+<line x1="151.7" y1="2951.0" x2="179.6" y2="2951.0" stroke="#C2C2C2" stroke-width="2.2"/>
+<line x1="179.6" y1="2951.0" x2="207.5" y2="2951.0" stroke="#C0C0C0" stroke-width="2.2"/>
+<line x1="207.5" y1="2951.0" x2="235.4" y2="2951.0" stroke="#BDBDBD" stroke-width="2.2"/>
+<line x1="235.4" y1="2951.0" x2="263.3" y2="2951.0" stroke="#BABABA" stroke-width="2.2"/>
+<line x1="263.3" y1="2951.0" x2="291.2" y2="2951.0" stroke="#B7B7B7" stroke-width="2.2"/>
+<line x1="291.2" y1="2951.0" x2="319.2" y2="2951.0" stroke="#B5B5B5" stroke-width="2.2"/>
+<line x1="319.2" y1="2951.0" x2="347.1" y2="2951.0" stroke="#B2B2B2" stroke-width="2.2"/>
+<line x1="347.1" y1="2951.0" x2="375.0" y2="2951.0" stroke="#AFAFAF" stroke-width="2.2"/>
+<line x1="375.0" y1="2951.0" x2="402.9" y2="2951.0" stroke="#ADADAD" stroke-width="2.2"/>
+<line x1="402.9" y1="2951.0" x2="430.8" y2="2951.0" stroke="#AAAAAA" stroke-width="2.2"/>
+<line x1="430.8" y1="2951.0" x2="458.8" y2="2951.0" stroke="#A7A7A7" stroke-width="2.2"/>
+<line x1="458.8" y1="2951.0" x2="486.7" y2="2951.0" stroke="#A5A5A5" stroke-width="2.2"/>
+<line x1="486.7" y1="2951.0" x2="514.6" y2="2951.0" stroke="#A2A2A2" stroke-width="2.2"/>
+<line x1="514.6" y1="2951.0" x2="542.5" y2="2951.0" stroke="#9F9F9F" stroke-width="2.2"/>
+<line x1="542.5" y1="2951.0" x2="570.4" y2="2951.0" stroke="#9C9C9C" stroke-width="2.2"/>
+<line x1="570.4" y1="2951.0" x2="598.3" y2="2951.0" stroke="#9A9A9A" stroke-width="2.2"/>
+<line x1="598.3" y1="2951.0" x2="626.2" y2="2951.0" stroke="#979797" stroke-width="2.2"/>
+<line x1="626.2" y1="2951.0" x2="654.2" y2="2951.0" stroke="#949494" stroke-width="2.2"/>
+<line x1="654.2" y1="2951.0" x2="682.1" y2="2951.0" stroke="#929292" stroke-width="2.2"/>
+<line x1="682.1" y1="2951.0" x2="710.0" y2="2951.0" stroke="#8F8F8F" stroke-width="2.2"/>
+<rect x="66.8" y="2931.0" width="174.2" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="174.0" y="2918.2" width="214.4" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="308.0" y="2931.0" width="201.0" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="455.4" y="2918.2" width="221.1" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<text x="40.0" y="2981.0" font-size="19" class="en t-gm" font-style="italic">faster</text>
+<text x="710.0" y="2981.0" font-size="19" class="en t-gm" font-style="italic" text-anchor="end">slower</text>
+<text x="40.0" y="3043.0" font-size="23" class="en t-k">Mechanical Properties</text>
+<text x="258.3" y="3043.0" font-size="19" class="jp t-g" letter-spacing="0.04em">力学特性</text>
+<line x1="40.0" y1="3107.0" x2="67.9" y2="3107.0" stroke="#CDCDCD" stroke-width="2.2"/>
+<line x1="67.9" y1="3107.0" x2="95.8" y2="3107.0" stroke="#CACACA" stroke-width="2.2"/>
+<line x1="95.8" y1="3107.0" x2="123.8" y2="3107.0" stroke="#C8C8C8" stroke-width="2.2"/>
+<line x1="123.8" y1="3107.0" x2="151.7" y2="3107.0" stroke="#C5C5C5" stroke-width="2.2"/>
+<line x1="151.7" y1="3107.0" x2="179.6" y2="3107.0" stroke="#C2C2C2" stroke-width="2.2"/>
+<line x1="179.6" y1="3107.0" x2="207.5" y2="3107.0" stroke="#C0C0C0" stroke-width="2.2"/>
+<line x1="207.5" y1="3107.0" x2="235.4" y2="3107.0" stroke="#BDBDBD" stroke-width="2.2"/>
+<line x1="235.4" y1="3107.0" x2="263.3" y2="3107.0" stroke="#BABABA" stroke-width="2.2"/>
+<line x1="263.3" y1="3107.0" x2="291.2" y2="3107.0" stroke="#B7B7B7" stroke-width="2.2"/>
+<line x1="291.2" y1="3107.0" x2="319.2" y2="3107.0" stroke="#B5B5B5" stroke-width="2.2"/>
+<line x1="319.2" y1="3107.0" x2="347.1" y2="3107.0" stroke="#B2B2B2" stroke-width="2.2"/>
+<line x1="347.1" y1="3107.0" x2="375.0" y2="3107.0" stroke="#AFAFAF" stroke-width="2.2"/>
+<line x1="375.0" y1="3107.0" x2="402.9" y2="3107.0" stroke="#ADADAD" stroke-width="2.2"/>
+<line x1="402.9" y1="3107.0" x2="430.8" y2="3107.0" stroke="#AAAAAA" stroke-width="2.2"/>
+<line x1="430.8" y1="3107.0" x2="458.8" y2="3107.0" stroke="#A7A7A7" stroke-width="2.2"/>
+<line x1="458.8" y1="3107.0" x2="486.7" y2="3107.0" stroke="#A5A5A5" stroke-width="2.2"/>
+<line x1="486.7" y1="3107.0" x2="514.6" y2="3107.0" stroke="#A2A2A2" stroke-width="2.2"/>
+<line x1="514.6" y1="3107.0" x2="542.5" y2="3107.0" stroke="#9F9F9F" stroke-width="2.2"/>
+<line x1="542.5" y1="3107.0" x2="570.4" y2="3107.0" stroke="#9C9C9C" stroke-width="2.2"/>
+<line x1="570.4" y1="3107.0" x2="598.3" y2="3107.0" stroke="#9A9A9A" stroke-width="2.2"/>
+<line x1="598.3" y1="3107.0" x2="626.2" y2="3107.0" stroke="#979797" stroke-width="2.2"/>
+<line x1="626.2" y1="3107.0" x2="654.2" y2="3107.0" stroke="#949494" stroke-width="2.2"/>
+<line x1="654.2" y1="3107.0" x2="682.1" y2="3107.0" stroke="#929292" stroke-width="2.2"/>
+<line x1="682.1" y1="3107.0" x2="710.0" y2="3107.0" stroke="#8F8F8F" stroke-width="2.2"/>
+<rect x="73.5" y="3074.2" width="234.5" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="227.6" y="3087.0" width="201.0" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="375.0" y="3074.2" width="187.6" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<rect x="509.0" y="3087.0" width="174.2" height="8.0" rx="4.0" class="f-l" fill-opacity="0.85"/>
+<text x="40.0" y="3137.0" font-size="19" class="en t-gm" font-style="italic">rigid</text>
+<text x="710.0" y="3137.0" font-size="19" class="en t-gm" font-style="italic" text-anchor="end">flexible</text>
+<rect x="40.0" y="3189.0" width="30.0" height="7.0" rx="3.5" class="f-l"/>
+<text x="82.0" y="3199.0" font-size="19" class="jp t-g" letter-spacing="0.02em">材料・グレードごとに異なる特性範囲（概念）</text>
+</g>
+<g id="sec3-processing-applications">
+<text x="40.0" y="3303.0" font-size="25" class="en t-r" letter-spacing="0.06em">03</text>
+<text x="86.0" y="3303.0" font-size="23" class="en t-k" letter-spacing="0.14em">PROCESSING &amp; APPLICATIONS</text>
+<text x="86.0" y="3341.0" font-size="21" class="jp t-g" letter-spacing="0.1em">加工形態と用途展開</text>
+<line x1="40.0" y1="3365.0" x2="710.0" y2="3365.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<text x="40.0" y="3439.0" font-size="31" class="en t-k">Processing</text>
+<text x="710.0" y="3439.0" font-size="21" class="jp t-g" letter-spacing="0.06em" text-anchor="end">加工形態</text>
+<ellipse cx="49.0" cy="3502.0" rx="6.9" ry="4.9" transform="rotate(-15 49.0 3502.0)" class="f-dg"/>
+<ellipse cx="62.5" cy="3490.0" rx="6.9" ry="4.9" transform="rotate(7 62.5 3490.0)" class="f-g"/>
+<ellipse cx="77.5" cy="3500.5" rx="6.9" ry="4.9" transform="rotate(4 77.5 3500.5)" class="f-g"/>
+<ellipse cx="92.5" cy="3488.5" rx="6.9" ry="4.9" transform="rotate(-22 92.5 3488.5)" class="f-dg"/>
+<ellipse cx="59.5" cy="3511.0" rx="6.9" ry="4.9" transform="rotate(-7 59.5 3511.0)" class="f-g"/>
+<ellipse cx="83.5" cy="3514.0" rx="6.9" ry="4.9" transform="rotate(28 83.5 3514.0)" class="f-g"/>
+<ellipse cx="73.0" cy="3479.5" rx="6.9" ry="4.9" transform="rotate(8 73.0 3479.5)" class="f-dg"/>
+<ellipse cx="98.5" cy="3506.5" rx="6.9" ry="4.9" transform="rotate(0 98.5 3506.5)" class="f-g"/>
+<ellipse cx="46.0" cy="3484.0" rx="6.9" ry="4.9" transform="rotate(10 46.0 3484.0)" class="f-g"/>
+<text x="122.0" y="3503.0" font-size="20" class="en t-g">Pellet / Resin</text>
+<line x1="70.0" y1="3527.0" x2="70.0" y2="3553.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="70.0" y1="3553.0" x2="598.3" y2="3553.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="151.7" y1="3553.0" x2="151.7" y2="3572.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M151.7,3579.0 L148.7,3572.0 L154.7,3572.0 Z" class="f-g"/>
+<line x1="375.0" y1="3553.0" x2="375.0" y2="3572.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M375.0,3579.0 L372.0,3572.0 L378.0,3572.0 Z" class="f-g"/>
+<line x1="598.3" y1="3553.0" x2="598.3" y2="3572.0" class="s-g" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M598.3,3579.0 L595.3,3572.0 L601.3,3572.0 Z" class="f-g"/>
+<path d="M121.7,3603.5 C141.2,3597.5 162.2,3609.5 181.7,3603.5" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3611.0 C141.2,3605.0 162.2,3617.0 181.7,3611.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3618.5 C141.2,3612.5 162.2,3624.5 181.7,3618.5" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.7,3626.0 C141.2,3620.0 162.2,3632.0 181.7,3626.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151.7" y="3671.0" font-size="23" class="en t-k" text-anchor="middle">Fiber</text>
+<text x="151.7" y="3699.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">繊維</text>
+<path d="M345.0,3626.0 C363.0,3596.0 384.0,3638.0 405.0,3605.0" class="s-k" stroke-width="2.449489742783178" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="375.0" y="3671.0" font-size="23" class="en t-k" text-anchor="middle">Filament</text>
+<text x="375.0" y="3699.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">フィラメント</text>
+<path d="M568.3,3629.0 L586.3,3608.0 L628.3,3608.0 L610.3,3629.0 Z" class="sf-g" stroke-width="1.224744871391589" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="598.3" y="3671.0" font-size="23" class="en t-k" text-anchor="middle">Film</text>
+<text x="598.3" y="3699.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">フィルム</text>
+<path d="M121.7,3764.5 L121.7,3772.0 L163.7,3772.0 L181.7,3751.0 L181.7,3743.5" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="163.7" y1="3764.5" x2="163.7" y2="3772.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round"/>
+<path d="M121.7,3764.5 L139.7,3743.5 L181.7,3743.5 L163.7,3764.5 Z" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151.7" y="3811.0" font-size="23" class="en t-k" text-anchor="middle">Sheet</text>
+<text x="151.7" y="3839.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">シート</text>
+<path d="M345.0,3769.0 L363.0,3748.0 L405.0,3748.0 L387.0,3769.0 Z" class="sf-g" stroke-width="1.224744871391589" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="366.0" cy="3753.2" r="1.42" class="f-g"/>
+<circle cx="374.1" cy="3753.2" r="1.42" class="f-g"/>
+<circle cx="382.2" cy="3753.2" r="1.42" class="f-g"/>
+<circle cx="390.3" cy="3753.2" r="1.42" class="f-g"/>
+<circle cx="398.4" cy="3753.2" r="1.42" class="f-g"/>
+<circle cx="361.1" cy="3758.9" r="1.42" class="f-g"/>
+<circle cx="369.2" cy="3758.9" r="1.42" class="f-g"/>
+<circle cx="377.3" cy="3758.9" r="1.42" class="f-g"/>
+<circle cx="385.4" cy="3758.9" r="1.42" class="f-g"/>
+<circle cx="393.5" cy="3758.9" r="1.42" class="f-g"/>
+<circle cx="356.2" cy="3764.7" r="1.42" class="f-g"/>
+<circle cx="364.3" cy="3764.7" r="1.42" class="f-g"/>
+<circle cx="372.4" cy="3764.7" r="1.42" class="f-g"/>
+<circle cx="380.5" cy="3764.7" r="1.42" class="f-g"/>
+<circle cx="388.6" cy="3764.7" r="1.42" class="f-g"/>
+<text x="375.0" y="3811.0" font-size="23" class="en t-k" text-anchor="middle">Membrane</text>
+<text x="375.0" y="3839.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">メンブレン</text>
+<path d="M574.3,3751.0 L607.3,3751.0 L607.3,3778.0 L574.3,3778.0 Z" class="sf-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M574.3,3751.0 L586.3,3739.0 L619.3,3739.0 L607.3,3751.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M619.3,3739.0 L619.3,3766.0 L607.3,3778.0" class="s-g" stroke-width="1.4696938456699067" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="598.3" y="3811.0" font-size="23" class="en t-k" text-anchor="middle">Block</text>
+<text x="598.3" y="3839.0" font-size="19" class="jp t-g" letter-spacing="0.02em" text-anchor="middle">ブロック</text>
+<text x="40.0" y="3933.0" font-size="31" class="en t-k">Applications</text>
+<text x="710.0" y="3933.0" font-size="21" class="jp t-g" letter-spacing="0.06em" text-anchor="end">代表的な用途例</text>
+<path d="M44.0,3989.9 A12.2,12.2 0 0 1 68.3,3989.9" class="s-k" stroke-width="1.626653005407115" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.0,3989.9 C46.8,4000.7 58.9,3992.6 61.6,4000.7 S72.4,4003.4 77.8,3996.7" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="3997.0" font-size="23" class="en t-k">Absorbable Suture</text>
+<text x="710.0" y="3997.0" font-size="21" class="jp t-g" letter-spacing="0.04em" text-anchor="end">吸収性縫合糸</text>
+<line x1="98.0" y1="4013.0" x2="710.0" y2="4013.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M42.7,4038.4 L49.5,4038.4 L49.5,4051.9 L42.7,4051.9 Z" class="sf-k" stroke-width="1.39427400463467" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.5,4041.2 L72.4,4041.2 L77.8,4045.2 L72.4,4049.2 L49.5,4049.2" class="s-k" stroke-width="1.39427400463467" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="52.1" y1="4039.1" x2="55.4" y2="4051.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="56.5" y1="4039.1" x2="59.7" y2="4051.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="60.8" y1="4039.1" x2="64.0" y2="4051.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="65.1" y1="4039.1" x2="68.3" y2="4051.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<line x1="69.4" y1="4039.1" x2="72.7" y2="4051.3" class="s-g" stroke-width="1.0457055034760026" stroke-linecap="round"/>
+<text x="98.0" y="4055.0" font-size="23" class="en t-k">Bone Fixation</text>
+<text x="710.0" y="4055.0" font-size="21" class="jp t-g" letter-spacing="0.04em" text-anchor="end">骨固定材</text>
+<line x1="98.0" y1="4071.0" x2="710.0" y2="4071.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="42.7" y1="4093.8" x2="75.1" y2="4093.8" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4112.6" x2="75.1" y2="4112.6" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<path d="M42.7,4093.8 L46.8,4103.2 L50.8,4093.8 L54.9,4103.2 L58.9,4093.8 L63.0,4103.2 L67.0,4093.8 L71.0,4103.2 L75.1,4093.8" class="s-k" stroke-width="1.2780845042484477" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.7,4112.6 L46.8,4103.2 L50.8,4112.6 L54.9,4103.2 L58.9,4112.6 L63.0,4103.2 L67.0,4112.6 L71.0,4103.2 L75.1,4112.6" class="s-k" stroke-width="1.2780845042484477" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="4113.0" font-size="23" class="en t-k">Stent</text>
+<text x="710.0" y="4113.0" font-size="21" class="jp t-g" letter-spacing="0.04em" text-anchor="end">ステント</text>
+<line x1="98.0" y1="4129.0" x2="710.0" y2="4129.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="45.4" y1="4149.1" x2="45.4" y2="4173.4" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="53.5" y1="4149.1" x2="53.5" y2="4173.4" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="61.6" y1="4149.1" x2="61.6" y2="4173.4" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="69.7" y1="4149.1" x2="69.7" y2="4173.4" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4151.8" x2="72.4" y2="4151.8" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4158.5" x2="72.4" y2="4158.5" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4165.2" x2="72.4" y2="4165.2" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<line x1="42.7" y1="4172.0" x2="72.4" y2="4172.0" class="s-k" stroke-width="1.161895003862225" stroke-linecap="round"/>
+<text x="98.0" y="4171.0" font-size="23" class="en t-k">Scaffold</text>
+<text x="710.0" y="4171.0" font-size="21" class="jp t-g" letter-spacing="0.04em" text-anchor="end">スキャフォールド</text>
+<line x1="98.0" y1="4187.0" x2="710.0" y2="4187.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M41.4,4221.9 C50.8,4211.1 61.6,4230.0 76.5,4216.5" class="s-k" stroke-width="1.5104635050208928" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.4,4227.3 C50.8,4216.5 61.6,4235.4 76.5,4221.9" class="s-g" stroke-width="1.161895003862225" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98.0" y="4229.0" font-size="23" class="en t-k">Membrane</text>
+<text x="710.0" y="4229.0" font-size="21" class="jp t-g" letter-spacing="0.04em" text-anchor="end">メンブレン</text>
+<line x1="98.0" y1="4245.0" x2="710.0" y2="4245.0" class="s-line" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="40.0" y="4315.0" width="670.0" height="132.0" class="s-line" stroke-width="1.2"/>
+<line x1="40.0" y1="4315.0" x2="40.0" y2="4447.0" class="s-r" stroke-width="3.5" stroke-linecap="round"/>
+<text x="68.0" y="4369.0" font-size="29" class="en t-k">ISO 13485-Certified QMS</text>
+<text x="68.0" y="4413.0" font-size="22" class="jp t-g" letter-spacing="0.06em">品質マネジメントシステム</text>
+</g>
+</svg>
